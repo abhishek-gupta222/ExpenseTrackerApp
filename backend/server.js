@@ -15,9 +15,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://expense-tracker-app-two-rose.vercel.app", // Allow your frontend domain
-    methods: "GET,POST,PUT,DELETE",
-    credentials: true // Allow cookies & authentication headers
+    origin: "https://expense-tracker-app-two-rose.vercel.app"
   })
 );
 
