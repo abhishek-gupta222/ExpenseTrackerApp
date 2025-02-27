@@ -1,0 +1,20 @@
+
+
+.summary-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  border-bottom: 2px solid #ddd;
+}
+
+.income {
+  color: green;
+}
+
+.expense {
+  color: red;
+}
